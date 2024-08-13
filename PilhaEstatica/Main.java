@@ -3,7 +3,7 @@ public class Main{
     public static void main(String []args){
 
         StaticStack<Integer> pilha = new StaticStack<>(5);
-
+        
         pilha.clear();
         pilha.push(1);
         pilha.push(2);
@@ -30,5 +30,6 @@ public class Main{
         pilha.push(9);
         pilha.push(9);
         System.out.println(pilha.toString());
+        
     }
 }
