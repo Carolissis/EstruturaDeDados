@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 
 public class StaticList<T>{
@@ -33,6 +32,10 @@ public class StaticList<T>{
                 this.data[i] = this.data[i - 1];
             }
         }
+        this.data[pos] = data;
+    }
+
+    public void setData(T data, int pos){
         this.data[pos] = data;
     }
     
